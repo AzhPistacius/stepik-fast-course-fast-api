@@ -7,7 +7,7 @@ Issues = "https://github.com/AzhPistacius/stepik-fast-course-fast-api/issues"
 [project]
 name = "stepik-fast-course-fast-api" 
 version = "0.0.1"
-description = "template"
+description = "Данный репозиторий содержит решения практических заданий курса 'Быстрый старт в FastAPI Python' на платформе Stepik."
 authors = [
     { name = "Artem Azhdaryan" }
 ]
@@ -16,6 +16,8 @@ requires-python = ">=3.12"
 
 # Основные зависимости
 dependencies = [
+    "fastapi>=0.117.1",
+    "uvicorn>=0.36.0",
 ]
 
 [project.optional-dependencies]
