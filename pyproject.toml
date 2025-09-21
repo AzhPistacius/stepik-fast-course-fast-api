@@ -17,6 +17,7 @@ requires-python = ">=3.12"
 # Основные зависимости
 dependencies = [
     "fastapi>=0.117.1",
+    "itsdangerous>=2.2.0",
     "pydantic>=2.11.9",
     "uvicorn>=0.36.0",
 ]
